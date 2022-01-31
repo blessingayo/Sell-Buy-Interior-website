@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+.about-header {
+  text-transform: uppercase;
+  font-family: "Trirong";
+  text-align: center;
+  padding: 4rem;
+}
+
+.history {
+  opacity: 0.8;
+  margin-top: 5px;
+}
+
+.about-msg-line {
+  /* height: 5;
+  width: 10px;
+  color: #222; */
+
+  margin-right: 15%;
+  margin-left: 15%;
+  font-family: "Trirong";
+  font-size: small;
+  margin-bottom: 50px;
+}
+
+.story-pick {
+  width: 50%;
+  height: 20rem;
+  object-fit: contain;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20rem;
+}
+
+.storyPick-section {
+  display: flex;
+  justify-content: space-between;
+}
+#lorem{
+  margin-bottom:20px;
+ 
+}
+
+.date{
+  line-height: 20px;
+}
+.storyPick-section1 {
+  position: relative;
+ bottom: 32rem;
+}

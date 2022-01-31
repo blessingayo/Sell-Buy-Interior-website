@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+
+.nav-image {
+}
+
+.content {
+  background-image: url("./images/pexels-martin-péchy-1866149.jpg");
+  /* width: 100%; */
+  height: 45rem;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 30px;
+  z-index: 1;
+
+  /* display: flex;
+  justify-content: space-between;
+  background-color: #111; */
+
+  /* Animation */
+  transition-timing-function: ease-in;
+  transition: all 0.8s;
+}
+
+.nav__black {
+  background-color: rgb(110, 109, 109);
+  object-fit: cover;
+  box-shadow: 1px solid rgb(245, 243, 243);
+}
+
+.nav__logo {
+  position: absolute;
+  left: 50px;
+  width: 70px;
+  object-fit: contain;
+  bottom: 10px;
+}
+
+.nav__avatar {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 7rem;
+  text-transform: uppercase;
+  font-family: "Trirong";
+  font-weight:lighter;
+}
+
+.nav1 {
+  padding-left: 5rem;
+  list-style: none;
+}
+
+.message {
+  color: rgb(10, 10, 10);
+  font-weight: lighter;
+  font-family: "Trirong";
+  margin-left: 65%;
+  padding: 20px;
+  letter-spacing: 3px;
+}
+
+.message > h1 {
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+.message > h4 {
+  opacity: 0.8;
+  line-height: 35px;
+}
+
+.more-btn {
+  background-color: rgba(253, 190, 73, 0.952);
+  padding: 15px;
+  padding-right: 70px;
+  padding-left: 70px;
+  border: none;
+  color: white;
+  font-family: "Trirong";
+  width: 200px;
+  height: 50px;
+}
+
+.more-btn:hover span {
+  font-size: x-large;
+  cursor: pointer;
+  color: grey;
+  text-transform: uppercase;
+  transform: scale(7);
+}
