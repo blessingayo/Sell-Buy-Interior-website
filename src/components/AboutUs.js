@@ -4,7 +4,7 @@ import storyPics from "./images/pexels-mikhail-nilov-6707628.jpg";
 
 const AboutUs = () => {
   return (
-    <div>
+    <div className="about-us-container">
       <div>
         <h3 className="about-header">
           About company
@@ -14,39 +14,34 @@ const AboutUs = () => {
         </h3>
       </div>
 
-      <div className="about-msg-line">
-        <h3 className="date">1920</h3>
+      <div className="storyPick-section">
+        <div className="line">
+        <h4 className="date">1920</h4>
+        <p className="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna
+          occaecat cupidatat
+           non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
 
-        <div className="storyPick-section">
-          <p id="lorem">
-            Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit,
-            sed do eiusmod tempor incididunt <br></br>ut labore et dolore magna
-            occaecat cupidatat
-            <br></br> non proident, sunt in culpa qui officia deserunt<br></br>{" "}
-            mollit anim id est laborum.
-          </p>
-          <img className="story-pick" src={storyPics} alt="story-pick" />
-        </div>
+        <h4>1986</h4>
 
-        <div className="storyPick-section1">
-          <h3>1986</h3>
+        <p className="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+          do eiusmod tempor incididunt ut labore et dolore magna
+          occaecat cupidatat
+           non proident, sunt in culpa qui officia deserunt
+          mollit anim id est laborum.
+        </p>
 
-          <p>
-            Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit,
-            sed do eiusmod tempor incididunt <br></br>ut labore et dolore magna
-            occaecat cupidatat
-            <br></br> non proident, sunt in culpa qui officia deserunt<br></br>
-            mollit anim id est laborum.
-          </p>
-
-          <button className="more-btn">
-            <span>More</span>
-          </button>
-        </div>
+        <button className="more-btn">
+          <span>More</span>
+        </button>
+      </div>
+      <img className="story-pick" src={storyPics} alt="story-pick" />
       </div>
     </div>
-
-    
   );
 };
 

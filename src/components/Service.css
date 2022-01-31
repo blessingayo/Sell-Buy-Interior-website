@@ -6,61 +6,44 @@
   height: 50%;
 }
 
-.myPic > img {
-  width: 31%;
-  height: 15rem;
-  object-fit: cover;
-  margin-left: 5.6px;
-  margin-bottom: 50px;
-  padding: 10px;
-  overflow-y: hidden;
-}
-
-.myPic {
-  transition: transform 450ms;
-}
-
-.myPic:hover {
-  transform: scale(1.08) translateY(-0.5rem);
-}
-
-.myPic1 > img {
-  width: 31%;
-  height: 15rem;
-  object-fit: cover;
-  margin-left: 5.6px;
-  margin-bottom: 50px;
-  padding: 10px;
-  overflow-y: hidden;
-}
-
-.myPic1 {
-  transition: transform 450ms;
-}
-
-.myPic1:hover {
-  transform: scale(1.08) translateY(-0.5rem);
-}
-
-.myPic2 > img {
-  width: 31%;
-  height: 15rem;
-  object-fit: cover;
-  margin-left: 5.6px;
-  margin-bottom: 50px;
-  padding: 10px;
-  overflow-y: hidden;
-}
-
-.myPic2 {
-  transition: transform 450ms;
-}
-
-.myPic2:hover {
-  transform: scale(1.08) translateY(-0.5rem);
-}
-
-.myPic > .myPic1 > .myPic2 {
+.service-images {
   display: flex;
   justify-content: space-between;
+  /* align-items: center; */
 }
+
+.service-images > img {
+  width: 25%;
+  height: 15rem;
+  object-fit: cover;
+  /* margin-right: 10px;
+  margin-bottom: 70px; */
+  margin: 50px;
+}
+
+.pic-1 {
+  transition: transform 450ms;
+  margin: 10px;
+}
+
+.pic-1:hover {
+  transform: scale(1.08) translateY(-0.5rem);
+}
+
+.pic-2 {
+  transition: transform 450ms;
+}
+
+.pic-2:hover {
+  transform: scale(1.08) translateY(-0.5rem);
+}
+
+.pic-3 {
+  transition: transform 450ms;
+}
+
+.pic-3:hover {
+  transform: scale(1.08) translateY(-0.5rem);
+}
+
+

@@ -1,8 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Trirong");
 
-.nav-image {
-}
-
 .content {
   background-image: url("./images/pexels-martin-péchy-1866149.jpg");
   /* width: 100%; */
@@ -12,6 +9,7 @@
   background-position-y: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  z-index: -1;
 }
 .nav {
   position: fixed;
@@ -50,7 +48,13 @@
   padding-right: 7rem;
   text-transform: uppercase;
   font-family: "Trirong";
-  font-weight:lighter;
+  font-weight: lighter;
+
+}
+
+.nav__avatar:hover {
+  cursor: pointer;
+
 }
 
 .nav1 {
@@ -65,6 +69,8 @@
   margin-left: 65%;
   padding: 20px;
   letter-spacing: 3px;
+  z-index: -1;
+  margin-top: 7%;
 }
 
 .message > h1 {
@@ -90,9 +96,10 @@
 }
 
 .more-btn:hover span {
-  font-size: x-large;
+  cursor: pointer;
+  /* font-size: x-large;
   cursor: pointer;
   color: grey;
   text-transform: uppercase;
-  transform: scale(7);
+  transform: scale(7); */
 }

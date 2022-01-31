@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Trirong");
+body {
+  font-family: "Trirong";
+}
+
+.news-header {
+  /* margin-top: -400px; */
+}
+.news-image {
+  width: 30%;
+  height: 20rem;
+  object-fit: cover;
+  margin-left: 100px;
+}
+
+.news-heading {
+  text-transform: uppercase;
+}
+
+.news-date {
+  text-transform: uppercase;
+  color: rgba(253, 190, 73, 0.952);
+}
+
+.news-event{
+  display: flex;
+  justify-content:space-between;
+}
+
+/* .news-text{
+  font-weight: normal;
+  opacity: 0.6;
+} */
+

@@ -7,7 +7,7 @@ import servicePk3 from "./images/pexels-pixabay-276534.jpg";
 const Service = () => {
   return (
     <div
-      style={{ position: "relative", bottom: "27rem" }}
+      style={{ position: "relative" }}
       className="service-background"
     >
       <div>
@@ -20,18 +20,11 @@ const Service = () => {
       </div>
 
       <div className="service-images">
-        <div className="myPic">
-          <img className="pic-1" src={servicePk1} alt="Pic-1" />
-        </div>
+        <img className="pic-1" src={servicePk1} alt="Pic-1" />
 
-        <div className="myPic1">
-          <img className="pic-2" src={servicePk2} alt="Pic-2" />
-        </div>
+        <img className="pic-2" src={servicePk2} alt="Pic-2" />
 
-        <div className="myPic2">
-          <img className="pic-3" src={servicePk3} alt="Pic-3" />
-        </div>
-        
+        <img className="pic-3" src={servicePk3} alt="Pic-3" />
       </div>
     </div>
   );

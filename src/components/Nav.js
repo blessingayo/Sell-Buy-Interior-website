@@ -33,15 +33,13 @@ const Nav = () => {
           <li style={{color: `${show ? 'white' : 'black' }` }} className="nav1">+234-8011-111-222</li>
         </ul>
 
-        <div className="message">
+      </div>
+      <div className="message">
           <h1>Interior in </h1>
           <h1>your House</h1>
           <h4>choose yourself something new</h4>
           <button className="more-btn"><span>More</span></button>
         </div>
-
-
-      </div>
     </div>
   );
 };
